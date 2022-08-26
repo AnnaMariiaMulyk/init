@@ -1,0 +1,475 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html {
+    margin: 0 auto;
+    height: 100%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #23283b;
+    background-color: #eeeeee;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+.main-container {
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    margin-bottom: 0;
+    background-color: #eeeeee;
+}
+
+.myheader a {
+    align-self: center;
+    float: left;
+    color: #8289a3;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.export-btn {
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    background-color: #4c70f0;
+    color: #ffffff;
+    /* border-radius: 8px; */
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 0;
+    margin: 10px;
+}
+
+.refresh-btn {
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    background-color: #c6d0f3;
+    color: #4c70f0;
+    /* border-radius: 8px; */
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 0;
+    margin: 10px;
+}
+
+.myheader a.other:hover {
+    color: #5c6483;
+}
+
+.myactive:hover {
+    color: #2649c8;
+}
+
+#headerright {
+    position: relative;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin-right: 30px;
+    /* margin-left: 200px; */
+}
+
+#headerleft {
+    position: relative;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.headerbutton {
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 500px;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    margin: 50px;
+    font-weight: 300;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.main-section {
+    align-items: center;
+    float: none;
+    justify-content: center;
+    overflow: hidden;
+    /* margin-left: 30px;
+    margin-right: 40px; */
+    width: 100%;
+}
+
+.dropdown a {
+    font-size: 15px;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.active-a:hover {
+    color: #23283b;
+}
+
+.aside a,
+span {
+    padding-left: 10px;
+    padding-right: 7px;
+    margin-top: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 8px;
+    text-decoration: none;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 0;
+    color: #23283b;
+}
+
+.aside button {
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 7px;
+    margin-left: 7px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 0;
+    background-color: #f8f8f8;
+}
+
+.aside .active-button {
+    background-color: #4c70f0;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.aside .active-a {
+    background-color: #4c70f0;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.aside .active-span {
+    background-color: #4c70f0;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.aside .active-button {
+    background-color: #4c70f0;
+    color: #ffffff;
+}
+
+.aside a:hover {
+    background-color: #eeeeee;
+}
+
+.aside .active-a:hover {
+    background-color: #4065ee;
+}
+
+.table-header span {
+    margin-right: 10px;
+    margin-top: 5px;
+    padding-left: 0px;
+}
+
+.table-header span button {
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+@media (min-height: 600px) {
+    .aside {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding: 0;
+        position: absolute;
+        width: 15%;
+        /* min-height: 100vh; */
+        top: 70px;
+        /* this is not okay!!!! */
+        margin-top: 70px;
+        bottom: 0;
+        margin: 0;
+        background-color: #f8f8f8;
+        color: #23283b;
+        font-size: 20px;
+    }
+    .aside-btn-dropdown {
+        border: 0;
+        padding: 0;
+        font-size: 20px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        justify-content: center;
+        position: relative;
+        left: 15%;
+    }
+    .mycontainer {
+        padding: 10px;
+        margin: 10px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        background-color: #f8f8f8;
+        width: 95%;
+        border-radius: 10px;
+    }
+    a.logo {
+        padding: 12px;
+        color: #23283b;
+        font-family: "Poppins", sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: none;
+        margin: 10px;
+    }
+    .myheader {
+        /* padding: 10px; */
+        display: flex;
+        flex-direction: row;
+        top: 0;
+        vertical-align: top;
+        padding: 0px;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        background-color: #f8f8f8;
+    }
+    .myheader a.other {
+        float: left;
+        color: #8289a3;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 25px;
+        border-radius: 4px;
+        margin: 10px;
+    }
+    .myheader span {
+        margin: 10px;
+        margin-top: 5px;
+        padding-top: 0;
+        justify-content: center;
+    }
+    .main-section h1 {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        font-family: "Poppins", sans-serif;
+        font-size: 24px;
+        font-weight: 550;
+        color: #23283b;
+        margin-bottom: 0;
+    }
+    .mytable {
+        width: 100%;
+        background-color: #ffffff;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .table-header {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-top: 0px;
+        margin-right: 10px;
+    }
+    .mytable tbody {
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .table-footer {
+        /* background-color: #e0e2ef; */
+        padding: 10px;
+        padding-top: 5px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .mytable th {
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+    }
+    .mytable tr {
+        font-family: "Poppins", sans-serif;
+        padding: 9px;
+    }
+    .mytable td {
+        height: 10px;
+        font-size: 14px;
+        font-family: "Poppins", sans-serif;
+        padding: 12px;
+    }
+}
+
+@media(min-height: 800px) {
+    .aside {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding: 0;
+        position: absolute;
+        width: 12%;
+        /* min-height: 100vh; */
+        top: 70px;
+        /* this is not okay!!!! */
+        margin-top: 70px;
+        bottom: 0;
+        margin: 0;
+        background-color: #f8f8f8;
+        color: #23283b;
+        font-size: 20px;
+    }
+    .aside-btn-dropdown {
+        border: 0;
+        padding: 0;
+        font-size: 20px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 88%;
+        justify-content: center;
+        position: relative;
+        left: 10%;
+    }
+    .mycontainer {
+        padding: 10px;
+        margin: 10px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        background-color: #f8f8f8;
+        width: 95%;
+        border-radius: 10px;
+    }
+    a.logo {
+        padding-left: 15px;
+        padding-right: 15px;
+        color: #23283b;
+        font-family: "Poppins", sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .myheader {
+        /* padding: 10px; */
+        display: flex;
+        flex-direction: row;
+        top: 0;
+        vertical-align: top;
+        padding: 0px;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        background-color: #f8f8f8;
+    }
+    .myheader a.other {
+        float: left;
+        color: #8289a3;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 25px;
+        border-radius: 4px;
+        margin: 10px;
+    }
+    .myheader span {
+        margin: 10px;
+        margin-right: 15px;
+        justify-content: center;
+        padding: 0;
+    }
+    .main-section h1 {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        font-family: "Poppins", sans-serif;
+        font-size: 30px;
+        font-weight: 550;
+        color: #23283b;
+    }
+    .mytable {
+        width: 100%;
+        background-color: #ffffff;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .table-header {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .mytable tbody {
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .table-footer {
+        /* background-color: #e0e2ef; */
+        padding: 10px;
+    }
+    .mytable th {
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+    }
+    .mytable tr {
+        padding: 12px;
+        font-family: "Poppins", sans-serif;
+    }
+    .mytable td {
+        padding: 12px;
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+    }
+}

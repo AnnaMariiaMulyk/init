@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello World!</title>
+    <script src="C:\Users\anna.mulyk\Desktop\random\Projects\REST_API\script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/css/tabler.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/js/tabler.min.js"></script>
+    <link rel="stylesheet" href="C:\Users\anna.mulyk\Desktop\random\Projects\REST_API\styles\styles.css">
+    <!-- <link
+      rel="stylesheet"
+      href="/Users/anna-mariiamulyk/Desktop/Projects/REST API/styles.css"
+    /> -->
+</head>
+
+<body>
+
+    <div class="main-container">
+        <div class="border-bottom">
+            <div class="myheader">
+                <div id="headerleft">
+                    <a class="logo">Logo</a>
+                    <!-- <button class="myactive" style="padding: 10px" href="#home">
++ Create
+</button> -->
+
+                </div>
+                <div id="headerright">
+                    <a class="other">Contact</a>
+                    <a class="other">About</a>
+                    <!-- <div class="nav.item dropdown d-none d-md flex-me">
+                        <a href="#" class="nav-link px-0" data-bs-toggle="dropdown">
+                            <img src="C:\Users\anna.mulyk\Desktop\random\Projects\REST_API\Source\bell.png" style="width: 18px; height: 18px;">
+
+                        </a>
+                    </div> -->
+                    <span class="avatar" style="text-align: center; padding: 9px;">AM</span>
+
+                    <label style="margin: 12px;">FG12332</label>
+
+                </div>
+            </div>
+        </div>
+        <div class="aside">
+
+            <a href="C:\Users\anna.mulyk\Desktop\random\Projects\REST_API\html\start.html">Get started</a>
+            <a href="C:\Users\anna.mulyk\Desktop\random\Projects\REST_API\html\index.html" class="active-a"> Devices</a>
+            <!-- <span class="dropdown">
+          <button
+            class="btn dropdown-toggle align-text-top aside-btn-dropdown"
+            data-bs-boundary="viewport"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            style="padding: 0; margin: 0;"
+            
+          >
+            Actions
+          </button>
+            <div class="dropdown-menu dropdown-menu-end" style="margin: 10px; padding: 5px;">
+                <a class="dropdown-item" href="#" style="margin-left:0; margin-right: 0; padding-right: 0;">Action</a>
+                <a class="dropdown-item" href="#"style="margin-left:0; margin-right: 0;padding-right: 0;">Action</a>
+            </div>
+            </span> -->
+            <a href="C:\Users\anna.mulyk\Desktop\random\Projects\REST_API\html\settings.html">Settings</a>
+        </div>
+        <div class="main">
+
+            <div style="
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+          ">
+                <section class="main-section">
+                    <div class="container" style="display: flex; flex-direction:column;align-items: center;">
+                        <div class="container mycontainer">
+                            <div class="table-header">
+                                <h1>Data</h1>
+                                <div class="d-flex align-items-center" style="justify-content: space-between;">
+                                    <div style="width: 25%;">
+                                        <input type=" text " class="form-control form-control-sm" placeholder="Search data " style="width: 100%; " />
+                                    </div>
+                                    <div>
+                                        <button class="export-btn" style="
+                     
+                      border-color: #4c70f0;
+                      border-width: 1.5px;
+                      font-size: 15px;
+                    ">
+                    <img src="C:\Users\anna.mulyk\Desktop\random\Projects\REST_API\Source\export_white.png" style="width: 18px; height: 18px;"> 
+                    <!-- <img
+                      src="/Users/anna-mariiamulyk/Desktop/Projects/REST API/Source/export.png"
+                      style="width: 18px; height: 18px"
+                    /> -->
+                    Export
+                  </button>
+                                        <button class="refresh-btn" style="
+                      background-color: transparent;
+                      border-color: #4c70f0;
+                      border-width: 1.5px;
+                      font-size: 15px;
+                    ">
+                    <img src="C:\Users\anna.mulyk\Desktop\random\Projects\REST_API\Source\refresh.png" style="width: 18px; height: 18px;"> 
+                    <!-- <img
+                      src="/Users/anna-mariiamulyk/Desktop/Projects/REST API/Source/export.png"
+                      style="width: 18px; height: 18px"
+                      /> -->
+                      Refresh
+                    </button>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center" style="padding: 0; justify-content: space-between; padding-bottom: 5px;">
+                                    <div style="display: flex; flex-direction: row">
+                                        <span class="dropdown" style="margin-left: 0;">
+                      <button
+                        class="btn dropdown-toggle align-text-top"
+                        data-bs-boundary="viewport"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Server: All
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-end">
+                        <a class="dropdown-item" href="#">All</a>
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">2</a>
+                      </div>
+                    </span>
+
+                                        <span class="dropdown">
+                      <button
+                        class="btn dropdown-toggle align-text-top"
+                        data-bs-boundary="viewport"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Version: All
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-end">
+                        <a class="dropdown-item" href="#">All</a>
+                        <a class="dropdown-item" href="#">1.1.2</a>
+                        <a class="dropdown-item" href="#">2.2.1</a>
+                        <a class="dropdown-item" href="#">2.3.2</a>
+                      </div>
+                    </span>
+
+                                        <span class="dropdown">
+                      <button
+                        class="btn dropdown-toggle align-text-top"
+                        data-bs-boundary="viewport"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Date: All
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-end">
+                        <a class="dropdown-item" href="#">All</a>
+                        <a class="dropdown-item" href="#">2022</a>
+                        <a class="dropdown-item" href="#">2021</a>
+                        <a class="dropdown-item" href="#">2020</a>
+                      </div>
+                    </span>
+                                    </div>
+                                    <div style="
+                      display: flex;
+                      flex-direction: row;
+                      position: relative;
+                      right: 0;
+                    ">
+                                        <div class="text-muted">Show</div>
+                                        <div class="mx-2 d-inline-block">
+                                            <input type="text" class="form-control form-control-sm" value="10" size="3" />
+                                        </div>
+                                        entries
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="table-responsive table-wrapper-scroll-y my-custom-scrollbar" style="margin-left: 0px; margin-top: 10px; margin-right: 0;"> -->
+                            <div class="table-responsive" style="margin-left: 0px; margin-top: 0px; margin-right: 0">
+                                <table class="table table-vcenter mytable">
+                                    <tbody>
+                                        <tr>
+                                            <th class="w-1">
+                                                <input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select all data">
+                                            </th>
+                                            <th>Server</th>
+                                            <th>Description</th>
+                                            <th>
+                                                <a>
+                            Version
+                            <img src="C:\Users\anna.mulyk\Desktop\random\Projects\REST_API\Source\sort.png" style="width: 18px; height: 18px; ">
+                            <!-- <img
+                              src="/Users/anna-mariiamulyk/Desktop/Projects/REST API/Source/sort.png"
+                              style="width: 18px; height: 18px"
+                            /> -->
+                          </a>
+                                            </th>
+                                            <th>
+                                                <a>
+                            Date
+                            <img src="C:\Users\anna.mulyk\Desktop\random\Projects\REST_API\Source\sort.png" style="width: 18px; height: 18px; ">
+                            <!-- <img
+                              src="/Users/anna-mariiamulyk/Desktop/Projects/REST API/Source/sort.png"
+                              style="width: 18px; height: 18px"
+                            /> -->
+                          </a>
+                                            </th>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Selct data">
+                                            </td>
+                                            <td>1</td>
+                                            <td>Laptop</td>
+                                            <td>3.6.1</td>
+                                            <td>16.08.2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Selct data">
+                                            </td>
+                                            <td>1</td>
+                                            <td>Laptop</td>
+                                            <td>3.6.1</td>
+                                            <td>16.08.2022</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Selct data">
+                                            </td>
+                                            <td>1</td>
+                                            <td>Laptop</td>
+                                            <td>3.6.1</td>
+                                            <td>16.08.2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Selct data">
+                                            </td>
+                                            <td>1</td>
+                                            <td>Laptop</td>
+                                            <td>3.6.1</td>
+                                            <td>16.08.2022</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Selct data">
+                                            </td>
+                                            <td>1</td>
+                                            <td>Laptop</td>
+                                            <td>3.6.1</td>
+                                            <td>16.08.2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Selct data">
+                                            </td>
+                                            <td>1</td>
+                                            <td>Laptop</td>
+                                            <td>3.6.1</td>
+                                            <td>16.08.2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Selct data">
+                                            </td>
+                                            <td>1</td>
+                                            <td>Laptop</td>
+                                            <td>3.6.1</td>
+                                            <td>16.08.2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Selct data">
+                                            </td>
+                                            <td>1</td>
+                                            <td>Laptop</td>
+                                            <td>3.6.1</td>
+                                            <td>16.08.2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Selct data">
+                                            </td>
+                                            <td>1</td>
+                                            <td>Laptop</td>
+                                            <td>3.6.1</td>
+                                            <td>16.08.2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Selct data">
+                                            </td>
+                                            <td>1</td>
+                                            <td>Laptop</td>
+                                            <td>3.6.1</td>
+                                            <td>16.08.2022</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="card-footer d-flex align-items-center table-footer">
+                                <p class="m-0 text-muted">
+                                    Showing
+                                    <span>1</span>to<span>10</span>of<span>10</span>entries
+                                </p>
+                                <ul class="pagination m-0 ms-auto">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">prev</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">1</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">2</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">3</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">next</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
